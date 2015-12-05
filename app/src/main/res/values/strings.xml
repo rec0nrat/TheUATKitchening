@@ -6,4 +6,19 @@
     <string name="title_activity_login">Login/Registration</string>
     <string name="title_activity_register">Registration</string>
 
+    <string name="formtitle">UAT Kitchen</string>
+    <string name="starttime">Start Time</string>
+    <string name="endtime">End time</string>
+    <string name="description">Description</string>
+    <string name="servingcheck">For yourself?</string>
+    <string name="reservebutton">Reserve</string>
+    <string name="kitchenitem">Kitchen Item</string>
+
+    <!--Other string resources also defined in this file… -->
+    <string name="kitchenitem1">Stove top 1</string>
+    <string name="kitchenitem2">Stove top 2</string>
+    <string name="kitchenitem3">Oven</string>
+    <string name="kitchenitem4">Microwave</string>
+    <string name="kitchenitem5">Table</string>
+
 </resources>
