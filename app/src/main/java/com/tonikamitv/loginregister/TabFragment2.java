@@ -20,7 +20,7 @@ public class TabFragment2 extends Fragment {
 
         super.onCreateView(inflater, container, savedInstanceState);
 
-        View rootView = inflater.inflate(R.layout.tab_fragment_2 ,null);
+        View rootView = inflater.inflate(R.layout.calendar ,null);
 
         return rootView;
     }
