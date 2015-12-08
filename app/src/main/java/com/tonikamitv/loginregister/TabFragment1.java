@@ -10,8 +10,12 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +33,22 @@ public class TabFragment1 extends Fragment implements View.OnClickListener{
         super.onCreateView(inflater, container, savedInstanceState);
 
         View rootView = inflater.inflate(R.layout.tab_fragment_1 ,null);
+
+        String[] userMessages = {"Message1", "Message2", "Message3"};
+
+        final ListAdapter theAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, userMessages);
+        ListView theListView = (ListView) rootView.findViewById(R.id.listView);
+
+        theListView.setAdapter(theAdapter);
+
+        theListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                Toast.makeText(getActivity(), "CLikkkking the MessssAge!!! =)",
+                        Toast.LENGTH_LONG).show();
+
+            }
+        });
 
 
         return rootView;
@@ -59,9 +79,10 @@ public class TabFragment1 extends Fragment implements View.OnClickListener{
         });
         */
 
+
         String message = messageText.getText().toString();
 
-        Log.w("Message: ", message);
+        Toast.makeText(getActivity(), "Pposting the message!! =)", Toast.LENGTH_LONG).show();
     }
 
     @Override
