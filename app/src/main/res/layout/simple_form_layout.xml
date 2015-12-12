@@ -63,7 +63,7 @@
             android:id="@+id/ButtonReserve"
             android:layout_height="wrap_content"
             android:text="@string/reservebutton"
-            android:onClick="sendFeedback"
+            android:onClick="reserveTime"
             android:layout_width="fill_parent">
         </Button>
 
