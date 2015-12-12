@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -26,6 +27,8 @@ public class MainActivity extends Activity {
     UserLocalStore userLocalStore;
     EditText etName, etStudentID, etUsername;
     Button bLogout;
+
+    InputMethodManager inputManager;
 
     ActionBar.Tab tab1, tab2, tab3;
 
@@ -57,9 +60,9 @@ public class MainActivity extends Activity {
 
         actionBar.setNavigationMode(actionBar.NAVIGATION_MODE_TABS);
 
-        tab1 = actionBar.newTab().setText("Find Help");
-        tab2 = actionBar.newTab().setText("Anonymous");
-        tab3 = actionBar.newTab().setText("Groups");
+        tab1 = actionBar.newTab().setText("Group Posting");
+        tab2 = actionBar.newTab().setText("Calendar");
+        tab3 = actionBar.newTab().setText("Reserve");
 
         tab1.setTabListener(new TabListener(fragment1));
         tab2.setTabListener(new TabListener(fragment2));
@@ -68,6 +71,17 @@ public class MainActivity extends Activity {
         actionBar.addTab(tab1);
         actionBar.addTab(tab2);
         actionBar.addTab(tab3);
+
+        //inputManager = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+
+
+
+
+       // InputMethodManager inputManager = (InputMethodManager)
+       //         getSystemService(Context.INPUT_METHOD_SERVICE);
+
+        //inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
+         //       InputMethodManager.HIDE_NOT_ALWAYS);
 
         /*
         etUsername = (EditText) findViewById(R.id.etUsername);

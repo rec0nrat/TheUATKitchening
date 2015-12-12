@@ -12,12 +12,12 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="68dp"
         android:inputType="textMultiLine"
         android:ems="10"
         android:id="@+id/tutorMessageInput"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.44" />
+        android:background="@drawable/back"/>
 
     <Button
         android:layout_width="305dp"

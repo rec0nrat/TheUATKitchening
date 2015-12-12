@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="J:\Users\July\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-03a5475e904653ee413c79c57127b663adbc36a4.jar" />
-    </item>
-    <item
-        jar="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-66f38b483166445c7ee5d13e7b90dd13c8e347b5.jar" />
-    </item>
-    <item
-        jar="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\exploded-aar\com.github.npanigrahy\Custom-Calendar-View\v1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="39dc3bd7d37d4f5955432097fead1f4dd789e16c">
-        <dex dex="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\pre-dexed\debug\classes-701b4b78155e062f5da36c68e7a2f1a5b15c9fc3.jar" />
-    </item>
-    <item
-        jar="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\pre-dexed\debug\classes-c3a9cb327a04a2604fa80ad374cce4806c0e74b7.jar" />
-    </item>
-    <item
-        jar="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jar="I:\TheUATKitchening\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="J:\Users\July\Documents\TheUATKitchening\app\build\intermediates\pre-dexed\debug\classes-45abc60af6ec3818079f36a1bea6f311185babd8.jar" />
+        <dex dex="I:\TheUATKitchening\app\build\intermediates\pre-dexed\debug\classes-d3880de75e431d37bbaaa99d794ea9b690db941c.jar" />
+    </item>
+    <item
+        jar="I:\TheUATKitchening\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="I:\TheUATKitchening\app\build\intermediates\pre-dexed\debug\classes-4818c306577bbc201241ac96b9c480e7353b4fd5.jar" />
+    </item>
+    <item
+        jar="C:\Users\tylweiss\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="I:\TheUATKitchening\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-47c572de48cc8b8c67e2937c20b6c83f23372fbb.jar" />
+    </item>
+    <item
+        jar="I:\TheUATKitchening\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="I:\TheUATKitchening\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6938d9d6f287e5551d79311a1e4b912b19773203.jar" />
+    </item>
+    <item
+        jar="I:\TheUATKitchening\app\build\intermediates\exploded-aar\com.github.npanigrahy\Custom-Calendar-View\v1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39dc3bd7d37d4f5955432097fead1f4dd789e16c">
+        <dex dex="I:\TheUATKitchening\app\build\intermediates\pre-dexed\debug\classes-44cf4cecaede2ff7692f42dde85515bd86691dda.jar" />
     </item>
 
 </items>
